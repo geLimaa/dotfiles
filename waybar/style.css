@@ -1,159 +1,165 @@
 @import "colors/colors.css";
 
 * {
-    font-family: "Rubik", "JetBrainsMono Nerd Font Propo",
-                 "Noto Sans CJK JP", "Noto Sans CJK NR";
-    font-size: 10px;
-    transition: background-color .3s ease-out;
+    border: none;
+    border-radius: 0px;
+    font-family: "SF Pro Display", "JetBrainsMono Nerd Font Propo";
+    padding: 0;
+    margin: 0;
+    min-width: 10px;
 }
 
 window#waybar {
-    background: rgba(0,0,0,0.0);
+    background-color: alpha(@bg0, 0.5);
+}
+
+tooltip {
+    background: transparent;
+    border: 1px solid @accent1;
+    border-radius: 12px;
+}
+
+tooltip label {
     color: @fg;
-
-    font-family:
-        SpaceMono Nerd Font,
-        feather;
-
-    transition: background-color .5s;
 }
 
-/* ========================================
-   MODULE CONTAINERS
-======================================== */
-
-.modules-left,
-.modules-center,
-.modules-right {
-    background: alpha(@bg0, 0.5);
-
-    margin: 5px 10px;
-    padding: 0 5px;
-
-    border-radius: 15px;
-
-    border: 1px solid alpha(@accent1, 0.15);
+#workspaces {
+    min-width: 0;
+    margin: 20px;
+    transition: all 0.3s ease-in-out;
 }
 
-.modules-left {
-    padding: 0;
+/* base (optional) */
+#workspaces button {
+    color: transparent;
+    background: linear-gradient(180deg, @grey0 0%, @bg1 100%);
+    /* was @grey0 */
+    transition: all 0.3s ease-in-out;
+    min-width: 0;
+    margin: 5px 0;
+    border-radius: 3px;
 }
 
-.modules-center {
-    padding: 0 10px;
+/* active */
+#workspaces button.active {
+    background: linear-gradient(180deg, @accent1 0%, @accent2 100%);
+    color: transparent;
+    transition: all 0.3s ease-in-out;
+    font-size: 13px;
+    border-radius: 9999px;
+    min-height: 80px;
 }
 
-/* ========================================
-   MODULES
-======================================== */
+/* hover */
+#workspaces button:hover {
+    background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    @accent1 20%,
+    @accent2 100%
+    );
+    /* was background-color:@purple */
+    color: transparent;
+    border-radius: 16px;
+    background-size: 400% 400%;
+    transition: all 0.3s ease-in-out;
+}
 
-#clock,
+/* urgent */
+#workspaces button.urgent {
+    background: linear-gradient(180deg, @red 0%, @orange 100%);
+    /* was background-color:@red */
+    color: @bg0;
+    border-radius: 16px;
+    background-size: 400% 400%;
+    transition: all 0.3s ease-in-out;
+}
+
 #battery,
-#cpu,
-#memory,
-#disk,
-#temperature,
-#backlight,
 #network,
 #pulseaudio,
-#wireplumber,
-#custom-media,
-#tray,
-#mode,
-#idle_inhibitor,
-#scratchpad,
-#power-profiles-daemon,
-#language,
-#mpd {
-    padding: 0 10px;
-    border-radius: 15px;
-
-    color: @accent1;
+#memory {
+    background-color: alpha(@bg0, 0);
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 5px;
 }
 
-/* ========================================
-   HOVER
-======================================== */
-
-#clock:hover,
-#battery:hover,
-#cpu:hover,
-#memory:hover,
-#disk:hover,
-#temperature:hover,
-#backlight:hover,
-#network:hover,
-#pulseaudio:hover,
-#wireplumber:hover,
-#custom-media:hover,
-#tray:hover,
-#mode:hover,
-#idle_inhibitor:hover,
-#scratchpad:hover,
-#power-profiles-daemon:hover,
-#language:hover,
-#mpd:hover {
-    background: alpha(@accent1, 0.15);
-    color: @accent2;
+#pulseaudio-slider {
+    padding: 0;
+    margin: 15px 0;
 }
 
-/* ========================================
-   WORKSPACES
-======================================== */
+#pulseaudio-slider slider {
+    border-radius: 2px;
+}
 
-#workspaces button {
-    background: transparent;
+#pulseaudio-slider trough {
+    min-height: 150px;
+    border-radius: 5px;
+}
 
-    font-family:
-        SpaceMono Nerd Font,
-        feather;
+#pulseaudio-slider highlight {
+    border-radius: 5px;
+}
 
-    font-weight: 900;
-    font-size: 13pt;
+.misc-modules {
+    font-size: 15px;
+}
 
+#custom-launcher {
     color: @fg;
-
-    border: none;
-    border-radius: 15px;
-
-    transition: all 300ms ease-in-out;
 }
 
-#workspaces button.active {
-    background-color: alpha(@accent1, 0.60);
-
-    color: white;
-
-    border: 1px solid alpha(@accent2, 0.40);
+#custom-separator {
+    margin-top: 5px;
+    font-size: 20px;
 }
 
-#workspaces button.active:hover {
-    background-color: alpha(@accent2, 0.75);
-}
-
-#workspaces button:hover {
-    background: alpha(@accent1, 0.15);
-
-    color: @accent2;
-
-    box-shadow: none;
-}
-
-/* ========================================
-   ARCH
-======================================== */
-
-#custom-arch {
-    margin-left: 5px;
-    padding: 0 10px;
-
-    font-size: 25px;
-
-    transition: all .3s ease;
-
+#clock {
     color: @accent1;
+    font-family: "Neue Machina";
+    font-weight: 600;
+    font-size: 28px;
+    margin: 15px 5px 0 5px;
 }
 
-#custom-arch:hover {
-    color: @accent2;
+#memory {
+    color: shade(@accent2, 1.4);
+    font-size: 24px;
+}
+
+#custom-media {
+    color: @aqua;
+}
+
+#custom-weather {
+    color: @yellow;
+}
+
+#custom-notification {
+    color: @fg;
+    margin: 10px;
+}
+
+#power-profiles-daemon {
+    color: @fg;
+    margin: 10px;
+}
+
+#custom-pacman {
+    color: @orange;
+}
+
+#pulseaudio {
+    color: @yellow;
+}
+
+#network {
+    color: @purple;
+}
+
+#battery {
+    color: @green;
+    margin-bottom: 20px;
 }
