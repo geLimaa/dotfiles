@@ -1,0 +1,11 @@
+/* =========================
+   OBSIDIAN ROSE
+   ========================= */
+* {
+    background:     #1D1B24FF;
+    background-alt: #2A2733FF;
+    foreground:     #F2E9E4FF;
+    selected:       #C084FCFF;
+    active:         #A6D189FF;
+    urgent:         #F38BA8FF;
+}

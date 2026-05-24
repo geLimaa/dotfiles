@@ -1,0 +1,11 @@
+/* =========================
+   SUNSET DRIVE
+   ========================= */
+* {
+    background:     #2B1E1AFF;
+    background-alt: #3C2A24FF;
+    foreground:     #F7E6D0FF;
+    selected:       #FFB86CFF;
+    active:         #C3E88DFF;
+    urgent:         #FF6E67FF;
+}

@@ -1,0 +1,24 @@
+@define-color bg0 #1A1010;
+@define-color bg1 #2A1716;
+@define-color bg2 #40211F;
+@define-color bg3 #5A322B;
+@define-color bg4 #7A4B3A;
+
+@define-color fg #F8EDE3;
+
+@define-color red #FF6B6B;
+@define-color orange #F7B267;
+@define-color yellow #F9E2AF;
+@define-color green #90BE6D;
+@define-color aqua #43BCCD;
+@define-color blue #5DA9E9;
+@define-color purple #C77DFF;
+@define-color pink #F15BB5;
+
+@define-color grey0 #241817;
+@define-color grey1 #5B3A36;
+@define-color grey2 #A37B73;
+
+/* sunset-drive.css */
+@define-color accent1 #FF7A00;
+@define-color accent2 #FF3D81;

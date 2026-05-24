@@ -1,0 +1,11 @@
+/* =========================
+   FROSTBYTE
+   ========================= */
+* {
+    background:     #1B232DFF;
+    background-alt: #263240FF;
+    foreground:     #DDE7F0FF;
+    selected:       #6CB6FFFF;
+    active:         #98C379FF;
+    urgent:         #E06C75FF;
+}

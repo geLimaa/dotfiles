@@ -1,0 +1,17 @@
+/* =========================
+   AURORA
+   ========================= */
+* {
+    background:     #1E2430FF;
+    background-alt: #2A3142FF;
+    foreground:     #D8DEE9FF;
+    selected:       #88C0D0FF;
+    active:         #A3BE8CFF;
+    urgent:         #BF616AFF;
+}
+
+
+
+
+
+

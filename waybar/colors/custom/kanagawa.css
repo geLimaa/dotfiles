@@ -1,0 +1,24 @@
+@define-color bg0 #181616;
+@define-color bg1 #1f1f28;
+@define-color bg2 #2a2a37;
+@define-color bg3 #363646;
+@define-color bg4 #54546d;
+
+@define-color fg #dcd7ba;
+
+@define-color red #c4746e;
+@define-color orange #b6927b;
+@define-color yellow #dca561;
+@define-color green #87a987;
+@define-color aqua #7aa89f;
+@define-color blue #8ba4b0;
+@define-color purple #a292a3;
+@define-color pink #d27e99;
+
+@define-color grey0 #727169;
+@define-color grey1 #938aa9;
+@define-color grey2 #a6a69c;
+
+/* kanagawa.css */
+@define-color accent1 #DCA561;
+@define-color accent2 #7E9CD8;

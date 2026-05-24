@@ -1,0 +1,11 @@
+/* =========================
+   EMERALD NIGHT
+   ========================= */
+* {
+    background:     #10211BFF;
+    background-alt: #173229FF;
+    foreground:     #D7F3E3FF;
+    selected:       #4CAF88FF;
+    active:         #A8D672FF;
+    urgent:         #E57373FF;
+}

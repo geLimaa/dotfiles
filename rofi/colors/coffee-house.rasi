@@ -1,0 +1,12 @@
+/* =========================
+   COFFEE HOUSE
+   ========================= */
+* {
+    background:     #2B211BFF;
+    background-alt: #3A2D26FF;
+    foreground:     #E6D5C3FF;
+    selected:       #C08A5DFF;
+    active:         #9EBC8AFF;
+    urgent:         #D96C75FF;
+}
+

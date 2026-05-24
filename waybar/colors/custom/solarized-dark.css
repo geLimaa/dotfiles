@@ -1,0 +1,24 @@
+@define-color bg0 #002b36;
+@define-color bg1 #073642;
+@define-color bg2 #0a3b46;
+@define-color bg3 #14424d;
+@define-color bg4 #1b4d59;
+
+@define-color fg #eee8d5;
+
+@define-color red #dc322f;
+@define-color orange #cb4b16;
+@define-color yellow #b58900;
+@define-color green #859900;
+@define-color aqua #2aa198;
+@define-color blue #268bd2;
+@define-color purple #6c71c4;
+@define-color pink #d33682;
+
+@define-color grey0 #586e75;
+@define-color grey1 #657b83;
+@define-color grey2 #839496;
+
+/* solarized-dark.css */
+@define-color accent1 #B58900;
+@define-color accent2 #268BD2;

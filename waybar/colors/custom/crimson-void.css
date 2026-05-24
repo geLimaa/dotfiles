@@ -1,0 +1,24 @@
+@define-color bg0 #0B0609;
+@define-color bg1 #160B12;
+@define-color bg2 #241018;
+@define-color bg3 #3A1721;
+@define-color bg4 #572437;
+
+@define-color fg #FBECEF;
+
+@define-color red #FF4D6D;
+@define-color orange #F9844A;
+@define-color yellow #F9C74F;
+@define-color green #90BE6D;
+@define-color aqua #43BCCD;
+@define-color blue #5DA9E9;
+@define-color purple #9D4EDD;
+@define-color pink #FF70A6;
+
+@define-color grey0 #140A10;
+@define-color grey1 #41212B;
+@define-color grey2 #8B5E69;
+
+/* crimson-void.css */
+@define-color accent1 #FF4D6D;
+@define-color accent2 #9D1D36;

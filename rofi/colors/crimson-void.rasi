@@ -1,0 +1,11 @@
+/* =========================
+   CRIMSON VOID
+   ========================= */
+* {
+    background:     #1A1116FF;
+    background-alt: #2A1821FF;
+    foreground:     #F1D9E6FF;
+    selected:       #C75C7CFF;
+    active:         #8FBF8FFF;
+    urgent:         #FF4D6DFF;
+}

@@ -1,0 +1,24 @@
+@define-color bg0 #120D0A;
+@define-color bg1 #1F1714;
+@define-color bg2 #2B211D;
+@define-color bg3 #3B2E28;
+@define-color bg4 #5A463D;
+
+@define-color fg #F5E9DC;
+
+@define-color red #D97757;
+@define-color orange #E6A15C;
+@define-color yellow #E9C46A;
+@define-color green #8AA87D;
+@define-color aqua #6FB3B8;
+@define-color blue #7DA6C2;
+@define-color purple #A78BFA;
+@define-color pink #E8A0BF;
+
+@define-color grey0 #1A1412;
+@define-color grey1 #4B3A33;
+@define-color grey2 #A58B7B;
+
+/* coffee-house.css */
+@define-color accent1 #E6A15C;
+@define-color accent2 #E9C46A;

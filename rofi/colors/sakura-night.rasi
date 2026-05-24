@@ -1,0 +1,11 @@
+/* =========================
+   SAKURA NIGHT
+   ========================= */
+* {
+    background:     #211825FF;
+    background-alt: #312238FF;
+    foreground:     #F8EAF4FF;
+    selected:       #FF9EC6FF;
+    active:         #B5E48CFF;
+    urgent:         #FF6B81FF;
+}

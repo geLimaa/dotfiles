@@ -1,0 +1,11 @@
+/* =========================
+   INFERNO
+   ========================= */
+* {
+    background:     #24120FFF;
+    background-alt: #3A1D18FF;
+    foreground:     #F8E3D2FF;
+    selected:       #FF8C42FF;
+    active:         #D4C26AFF;
+    urgent:         #FF5C5CFF;
+}

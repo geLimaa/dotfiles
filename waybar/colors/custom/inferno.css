@@ -1,0 +1,24 @@
+@define-color bg0 #140809;
+@define-color bg1 #1F0D0E;
+@define-color bg2 #2A1415;
+@define-color bg3 #3B1D1E;
+@define-color bg4 #5A2A27;
+
+@define-color fg #FFE9D6;
+
+@define-color red #FF4D2E;
+@define-color orange #FF7F50;
+@define-color yellow #FFB347;
+@define-color green #D65A31;
+@define-color aqua #E07A52;
+@define-color blue #A63A28;
+@define-color purple #C44536;
+@define-color pink #FF8A6A;
+
+@define-color grey0 #1A0D0E;
+@define-color grey1 #5A2A27;
+@define-color grey2 #A56A5F;
+
+/* inferno.css */
+@define-color accent1 #FF4D2E;
+@define-color accent2 #FF7F50;

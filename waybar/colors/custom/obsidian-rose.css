@@ -1,0 +1,24 @@
+@define-color bg0 #0F0B12;
+@define-color bg1 #17111D;
+@define-color bg2 #241827;
+@define-color bg3 #332336;
+@define-color bg4 #4C3A4F;
+
+@define-color fg #F6EAF2;
+
+@define-color red #F7768E;
+@define-color orange #F4A261;
+@define-color yellow #E9C46A;
+@define-color green #7FC8A9;
+@define-color aqua #64DFDF;
+@define-color blue #7AA2F7;
+@define-color purple #B388EB;
+@define-color pink #FF74B1;
+
+@define-color grey0 #17111D;
+@define-color grey1 #433041;
+@define-color grey2 #8D7A8B;
+
+/* obsidian-rose.css */
+@define-color accent1 #FF74B1;
+@define-color accent2 #F7768E;

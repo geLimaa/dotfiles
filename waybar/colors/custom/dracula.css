@@ -1,0 +1,24 @@
+@define-color bg0 #1e1f29;
+@define-color bg1 #232530;
+@define-color bg2 #282a36;
+@define-color bg3 #44475a;
+@define-color bg4 #6272a4;
+
+@define-color fg #f8f8f2;
+
+@define-color red #ff5555;
+@define-color orange #ffb86c;
+@define-color yellow #f1fa8c;
+@define-color green #50fa7b;
+@define-color aqua #8be9fd;
+@define-color blue #bd93f9;
+@define-color purple #ff79c6;
+@define-color pink #ff92df;
+
+@define-color grey0 #6272a4;
+@define-color grey1 #7e8aae;
+@define-color grey2 #a4b1cd;
+
+/* dracula.css */
+@define-color accent1 #FF79C6;
+@define-color accent2 #BD93F9;

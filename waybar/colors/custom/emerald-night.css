@@ -1,0 +1,24 @@
+@define-color bg0 #0D1512;
+@define-color bg1 #14201C;
+@define-color bg2 #1B2B25;
+@define-color bg3 #244038;
+@define-color bg4 #35584E;
+
+@define-color fg #E8F3EC;
+
+@define-color red #E57373;
+@define-color orange #F0A868;
+@define-color yellow #D7BA7D;
+@define-color green #7BC99C;
+@define-color aqua #59D4C8;
+@define-color blue #4FA3D1;
+@define-color purple #A78BFA;
+@define-color pink #F472B6;
+
+@define-color grey0 #17211D;
+@define-color grey1 #31433D;
+@define-color grey2 #70897E;
+
+/* emerald-night.css */
+@define-color accent1 #5FA777;
+@define-color accent2 #D9C27A;

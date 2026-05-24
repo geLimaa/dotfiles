@@ -1,0 +1,24 @@
+@define-color bg0 #000000;
+@define-color bg1 #111111;
+@define-color bg2 #1c1c1c;
+@define-color bg3 #2a2a2a;
+@define-color bg4 #3a3a3a;
+
+@define-color fg #eaeaea;
+
+@define-color red #555555;
+@define-color orange #666666;
+@define-color yellow #777777;
+@define-color green #888888;
+@define-color aqua #999999;
+@define-color blue #aaaaaa;
+@define-color purple #bbbbbb;
+@define-color pink #cccccc;
+
+@define-color grey0 #444444;
+@define-color grey1 #777777;
+@define-color grey2 #aaaaaa;
+
+/* e-ink.css */
+@define-color accent1 #7A746A;
+@define-color accent2 #B7B0A2;

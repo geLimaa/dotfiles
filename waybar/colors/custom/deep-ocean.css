@@ -1,0 +1,24 @@
+@define-color bg0 #07141D;
+@define-color bg1 #0D1F2A;
+@define-color bg2 #123140;
+@define-color bg3 #1A4558;
+@define-color bg4 #28647B;
+
+@define-color fg #DFFBFF;
+
+@define-color red #FF6B81;
+@define-color orange #F7A072;
+@define-color yellow #F2CC8F;
+@define-color green #81B29A;
+@define-color aqua #4FD1C5;
+@define-color blue #5DADE2;
+@define-color purple #A78BFA;
+@define-color pink #F472B6;
+
+@define-color grey0 #0F202E;
+@define-color grey1 #33556B;
+@define-color grey2 #7FA2B8;
+
+/* deep-ocean.css */
+@define-color accent1 #1B9AAA;
+@define-color accent2 #4FD1C5;

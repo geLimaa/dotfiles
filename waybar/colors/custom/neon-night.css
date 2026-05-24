@@ -1,0 +1,24 @@
+@define-color bg0 #120B1E;
+@define-color bg1 #1C102B;
+@define-color bg2 #29163F;
+@define-color bg3 #3A2357;
+@define-color bg4 #52327A;
+
+@define-color fg #F4EFFF;
+
+@define-color red #FF5F87;
+@define-color orange #FF9E64;
+@define-color yellow #F9E2AF;
+@define-color green #9ECE6A;
+@define-color aqua #2AC3DE;
+@define-color blue #7AA2F7;
+@define-color purple #C792EA;
+@define-color pink #FF79C6;
+
+@define-color grey0 #1A1325;
+@define-color grey1 #44325F;
+@define-color grey2 #8A7AA6;
+
+/* neon-night.css */
+@define-color accent1 #FF00AA;
+@define-color accent2 #00F5FF;

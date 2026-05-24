@@ -1,0 +1,24 @@
+@define-color bg0 #0B1020;
+@define-color bg1 #11182B;
+@define-color bg2 #18233B;
+@define-color bg3 #22304D;
+@define-color bg4 #314268;
+
+@define-color fg #D6E4FF;
+
+@define-color red #FF5D73;
+@define-color orange #FFB86C;
+@define-color yellow #F9E2AF;
+@define-color green #6EE7B7;
+@define-color aqua #67E8F9;
+@define-color blue #7AA2F7;
+@define-color purple #B48EFD;
+@define-color pink #F472B6;
+
+@define-color grey0 #0F172A;
+@define-color grey1 #334155;
+@define-color grey2 #94A3B8;
+
+/* aurora.css */
+@define-color accent1 #7AA2F7;
+@define-color accent2 #B48EFD;

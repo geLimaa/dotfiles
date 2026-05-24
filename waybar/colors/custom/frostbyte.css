@@ -1,0 +1,24 @@
+@define-color bg0 #09131B;
+@define-color bg1 #10202B;
+@define-color bg2 #18303D;
+@define-color bg3 #274455;
+@define-color bg4 #3B6278;
+
+@define-color fg #E6F7FF;
+
+@define-color red #FF7B72;
+@define-color orange #F6BD60;
+@define-color yellow #F9E2AF;
+@define-color green #98ECBD;
+@define-color aqua #7FE7DC;
+@define-color blue #74C7EC;
+@define-color purple #B4BEFE;
+@define-color pink #F5BDE6;
+
+@define-color grey0 #10202B;
+@define-color grey1 #355364;
+@define-color grey2 #8BA4B0;
+
+/* frostbyte.css */
+@define-color accent1 #74C7EC;
+@define-color accent2 #B4BEFE;
